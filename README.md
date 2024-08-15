@@ -1,1 +1,3 @@
 # my-website
+
+This is just supposed to be a good enough reason for me to learn some front end work...
