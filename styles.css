@@ -6,3 +6,12 @@ html {
     height: auto;
     width: 200px;
 }
+
+.top-nav {
+    text-align: center; 
+}
+
+.content {
+    width: 1000px;
+    margin: 20px auto; 
+}
