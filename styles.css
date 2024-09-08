@@ -7,16 +7,63 @@ html {
     width: 200px;
 }
 
-.top-nav {
-    text-align: center; 
+
+.top-nav { 
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dotted
+    hsl(0deg 0% 0% / 0.2);
+
+}
+
+.top-nav ul {
+    list-style-type: none;
+    display: flex;
+    /* width: 1000px; */
+    padding: 0;
+    gap: 16px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
 }
 
 .content {
-    padding-top: 60px;
-    width: 1000px;
+
+    width: 800px;
     margin: 20px auto; 
 }
+
+.name-card {
+    width: 800px;
+    margin: 20px auto; 
+    padding-top: 40px;
+    display: flex;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    gap: 24px;
+    align-items: baseline;
+
+}
+
+.name-card img {
+    height: 200px;
+    width: 200px;
+}
+
+.headings {
+    font-weight: 900;
+}
+
+
+
